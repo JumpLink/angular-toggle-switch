@@ -1,4 +1,4 @@
-angular.module('toggle-switch', ['ng']).directive('toggleSwitch', function($compile) {
+angular.module('toggle-switch', ['ng']).directive('toggleSwitch',['$compile', function($compile) {
     return {
         restrict: 'EA',
         replace: true,
@@ -73,4 +73,4 @@ angular.module('toggle-switch', ['ng']).directive('toggleSwitch', function($comp
             };
         }
     };
-});
+}]);
